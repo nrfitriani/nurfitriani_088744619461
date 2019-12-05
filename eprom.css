@@ -1,0 +1,37 @@
+#wrap{
+    background-color: bisque;
+}
+
+#content {
+    background-color: bisque;
+	width: 1000px;
+}
+
+#kiri{
+    background-color: bisque;
+	width: 900px;
+	float: left;
+	padding: 10px;
+}
+
+#kiri img{
+    background-color: bisque;
+	float: left;
+	margin: 20px;
+}
+
+#kanan{
+    background-color: bisque;
+	width: 100px;
+	height: 400px;
+	float: left;
+}
+
+#gmaps{
+    width: 370px;
+	height: 430px;
+}
+
+.text{
+	text-align: justify;
+}

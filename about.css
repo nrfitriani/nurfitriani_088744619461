@@ -1,6 +1,5 @@
-body,
-html {
-	background: #ffff;
+body{
+	background-color: #FFFFCC
 }
 
 header {
@@ -10,24 +9,26 @@ header {
 }
 
 h1{
-	margin: 0;
+	margin: 2;
 	font-size: 23px;
 }
 
 h2,h3,h4,h5,h6{
+
 	margin: 0;
-	font-size: 40px;
+	font-size: 35px;
 
 }
-
 
 
 p{
 	margin-top: 0;
+	text-align: justify;
 }
 
+
 #wrap { 
-	background: #ffffbf;
+	background: #CCFFFF;
 	width: 1000px;
 	height: 150px;
 }
@@ -35,15 +36,16 @@ p{
 #menu{
 	width: 1000px;
 	height: 50px;
-	background: #8c8c00;	
+	background: #0066CC;	
 }
+
 
 #content {
 	width: 1000px;
 }
 
 #kiri{
-	width: 680;
+	width: 680px;
 	float: left;
 	padding: 10px;
 }
@@ -57,16 +59,10 @@ p{
 	width: 300px;
 	height: 400px;
 	background: yellow;
-	float: right;
-}
-
-#kanan img{
-	float: right;
-	margin: 5px;
+	float: left;
 }
 
 #footer{
-	float: right;
 	width: 1000px;
 	height: 50px;
 	background: #fff;
@@ -74,8 +70,8 @@ p{
 
 #header{
 	background-image: url("about.jpg");
-	height: 100vh;
-	background-position: no-repeat;
+	height: 100%;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -83,7 +79,7 @@ p{
 ul {
 	width: auto;
 	float: right;
-	margin-top: 8px;
+	margin-top: 0px;
 }
 
 
@@ -93,21 +89,14 @@ li{
 }
 
 a{
-	text-align: center;
-	color: #ffffff;
 	text-decoration: none;
-	font-family: 'open Sans', sans-serif;
-	font-size: 1.2vw;
 }
 
-a:hover{
-	color: #ffff
-	margin-top: -16px;
-}
-.Achivement{
-	background-color: gray;
+
+#Achivement{
+	background-color: #ffff;
 	font-family: 'open Sans', sans-serif;
-	font-size: 1.2vw;
+	font-size: 8vw;
 }
 
 .btn{
