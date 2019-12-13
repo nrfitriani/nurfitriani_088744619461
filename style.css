@@ -1,13 +1,12 @@
-
-
-.bg {
-	background: url(img/header.jpg);
+#bg {
 	background-size: cover;
-	height: 580px;
-	margin-top: -60px;
+	height: 700%;
+	width: 700%;
+	
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: 22% 75%;
+#item{
+	background-size: cover;
+	height: auto;
+	width: 700%;
 }
